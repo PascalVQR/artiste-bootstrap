@@ -1,6 +1,10 @@
 body {
     background-color: #628EF0;
     background-image: linear-gradient(0deg, #628EF0 5%, #C7B2F0 50%, #628EF0 95%);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
 }
 
 nav {
