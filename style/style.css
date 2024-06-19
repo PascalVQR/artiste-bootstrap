@@ -1,3 +1,21 @@
+@font-face {
+    /* TITRE SITE */
+    font-family: Nasalization-RG;
+    src: url("../fonts/Nasalization-RG.otf");
+}
+
+@font-face {
+    /* TITRE H1, H2, ... */
+    font-family: Akira;
+    src: url("../fonts/Akira Expanded Demo.otf");
+}
+
+@font-face {
+    /* CORPS DE TEXTE */
+    font-family: MadeOkineSans;
+    src: url("../fonts/made_okine_sans_light.otf");
+}
+
 body {
     background-color: #628EF0;
     background-image: linear-gradient(0deg, #628EF0 5%, #C7B2F0 50%, #628EF0 95%);
@@ -5,6 +23,7 @@ body {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
+    font-family: MadeOkineSans, Arial, Helvetica, sans-serif;
 }
 
 nav, footer {
@@ -22,4 +41,8 @@ nav, footer {
 
 .border {
     border-color: #6362F0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Akira, sans-serif;
 }
