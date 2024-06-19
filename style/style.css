@@ -10,3 +10,16 @@ body {
 nav {
     background-color: #9162F0;
 }
+
+#boutondor {
+    background-color: #6362F0;
+    border-color: #6362F0;
+}
+
+#boutondor:hover {
+    background-color: #5353c5;
+}
+
+.border {
+    border-color: #6362F0;
+}
